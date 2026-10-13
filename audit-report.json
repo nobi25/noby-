@@ -1,0 +1,118 @@
+{
+  "checks": [
+    {
+      "name": "file:server.js",
+      "status": "passed"
+    },
+    {
+      "name": "file:local-db.js",
+      "status": "passed"
+    },
+    {
+      "name": "file:Dockerfile",
+      "status": "passed"
+    },
+    {
+      "name": "file:docker-compose.yml",
+      "status": "passed"
+    },
+    {
+      "name": "file:.env.example",
+      "status": "passed"
+    },
+    {
+      "name": "file:README.md",
+      "status": "passed"
+    },
+    {
+      "name": "file:public/index.html",
+      "status": "passed"
+    },
+    {
+      "name": "file:public/admin.html",
+      "status": "passed"
+    },
+    {
+      "name": "file:worker/pipeline.js",
+      "status": "passed"
+    },
+    {
+      "name": "sqlite-wasm",
+      "status": "passed"
+    },
+    {
+      "name": "bcrypt",
+      "status": "passed"
+    },
+    {
+      "name": "helmet",
+      "status": "passed"
+    },
+    {
+      "name": "rate-limit",
+      "status": "passed"
+    },
+    {
+      "name": "ads",
+      "status": "passed"
+    },
+    {
+      "name": "otp",
+      "status": "passed"
+    },
+    {
+      "name": "reader-pages",
+      "status": "passed"
+    },
+    {
+      "name": "theme-five",
+      "status": "passed"
+    },
+    {
+      "name": "paypal",
+      "status": "passed"
+    },
+    {
+      "name": "pipeline",
+      "status": "passed"
+    },
+    {
+      "name": "network-enforcer",
+      "status": "passed"
+    },
+    {
+      "name": "scheduler",
+      "status": "passed"
+    },
+    {
+      "name": "backup",
+      "status": "passed"
+    },
+    {
+      "name": "wal",
+      "status": "passed"
+    },
+    {
+      "name": "seo",
+      "status": "passed"
+    },
+    {
+      "name": "docker-restart",
+      "status": "passed"
+    },
+    {
+      "name": "admin",
+      "status": "passed"
+    },
+    {
+      "name": "health",
+      "status": "passed"
+    },
+    {
+      "name": "no-demo-reader",
+      "status": "passed"
+    }
+  ],
+  "passed": 28,
+  "failed": 0
+}

@@ -1,0 +1,16 @@
+services:
+  noby:
+    build: .
+    restart: always
+    ports:
+      - "3000:3000"
+    env_file:
+      - .env
+    environment:
+      PORT: 3000
+      DB_FILE: /app/data/noby.sqlite
+      BACKUP_DIR: /app/data/backups
+    volumes:
+      - noby_data:/app/data
+volumes:
+  noby_data:
